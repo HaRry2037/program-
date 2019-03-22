@@ -9,14 +9,14 @@ code:
   cin>>n;   //input part
   cout<<0;
   cout<<1;
-  cout<<"";
+  cout<<" ";
   for(i=2;i<n;i++)
                    {
   c=a+b;
    a=b;
         b=c;
          cout<<c;
-            cout<<" "; 
+            cout<<" "<<endl; 
   }     //fibnacci series part in which printing and all is performed
    int k=c;
    a=3 ,b=5 ,c=0;
@@ -25,6 +25,7 @@ code:
   a=3, b=5, c=0;
   for(i=a+1;i<b;i++)
                      {
+                     cout<<"the missing series is:";
                      cout<<i<<"   ";
                      }
                     c=a+b;
